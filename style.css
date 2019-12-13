@@ -1,0 +1,115 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Reset css */
+
+body{
+    background-color: #50140a;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    height: 100vh;
+}
+
+#chronometre{
+    font-size: 6em; 
+}
+
+button{
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 3em;
+    color: white;
+    border: solid white 4px;
+    cursor: pointer;
+    padding: 20px;
+    width: 300px;
+    height: 100px;
+    transition: 0.4s ease-in-out;
+}
+
+button:hover{
+    width: 330px;
+    height: 110px;
+    font-size: 3.3em;
+    border-color: #d36940;
+    color: #d36940;
+}
+
+#secondary{
+    display:none;
+}
+
+.secondary{
+    width: 240px;
+    height: 75px;
+    font-size: 2em;
+}
+
+#stop:hover{
+    color: rgb(141, 2, 25);
+    border-color: rgb(141, 2, 25);
+    width: 240px;
+    height: 75px;
+    font-size: 2em;
+}
+
+#pause:hover{
+    color: rgb(14, 110, 38);
+    border-color: rgb(14, 110, 38);
+    width: 240px;
+    height: 75px;
+    font-size: 2em;
+}
+
+#reset:hover{
+    color: rgb(17, 102, 172);
+    border-color: rgb(17, 102, 172);
+    width: 240px;
+    height: 75px;
+    font-size: 2em;
+}
